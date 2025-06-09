@@ -4,7 +4,7 @@ A real-time hair rendering system based on the Marschner scattering model, optim
 This project simulates realistic light scattering behaviors of human hair including R, TT, and TRT reflection modes.
 
 
-<img src="HairRendering/represent.png" width="600"/>
+<img src="HairRendering/represent.png" width="700"/>
 
 
 ---
@@ -20,7 +20,7 @@ This project simulates realistic light scattering behaviors of human hair includ
 ##  Demo
 
 
-<img src="HairRendering/wCurly.png" width="600"/>
+<img src="HairRendering/wCurly.png" width="700"/>
 
 
 > Real-time rendering result with physically-based scattering
@@ -39,10 +39,12 @@ Implements R (surface reflection), TT (transmission-transmission), TRT (transmis
 
 
 
-  <img src="HairRendering/marschner_texture.png" width="200" title="1. M(θi, θo)" style="margin-right: 10px;" />
-  <img src="HairRendering/NR_texture.png" width="200" title="2. N_R(ϕd)" style="margin-right: 10px;" />
-  <img src="HairRendering/NTT_texture.png" width="200" title="3. N_TT(ϕd)" style="margin-right: 10px;" />
-  <img src="HairRendering/NTRT_texture.png" width="200" title="4. N_TRT(ϕd)" />
+<p align="left">
+  <img src="HairRendering/marschner_texture.png" width="200" style="margin-right:10px; display:inline-block;" title="1. M(θi, θo)" />
+  <img src="HairRendering/NR_texture.png" width="200" style="margin-right:10px; display:inline-block;" title="2. N_R(ϕd)" />
+  <img src="HairRendering/NTT_texture.png" width="200" style="margin-right:10px; display:inline-block;" title="3. N_TT(ϕd)" />
+  <img src="HairRendering/NTRT_texture.png" width="200" style="display:inline-block;" title="4. N_TRT(ϕd)" />
+</p>
 
 
 - **First**: `M(θi, θo)` – Longitudinal scattering
